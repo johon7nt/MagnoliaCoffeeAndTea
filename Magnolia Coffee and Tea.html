@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Magnolia Coffee and Tea — Café de Especialidad en Adrogué</title>
+  <meta name="description" content="Café de especialidad, pastelería artesanal y experiencias únicas en Adrogué. Cerámica & Brunch, Flower Bar, Magno Feria.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous">
+  <link rel="stylesheet" href="magnolia.css">
+</head>
+<body>
+
+<!-- ═══════════════════════════════════════════
+     DEMO BANNER
+═══════════════════════════════════════════ -->
+<div class="demo-banner">
+  ✨ Demo interactiva creada especialmente para Magnolia Coffee and Tea — Todo el contenido es personalizable
+</div>
+
+<!-- ═══════════════════════════════════════════
+     NAVBAR
+═══════════════════════════════════════════ -->
+<nav class="navbar" id="navbar">
+  <div class="nav-inner">
+    <a href="#inicio" class="nav-logo">
+      <img src="uploads/MagnoliaLogo.webp" alt="Magnolia Coffee and Tea" class="nav-logo-mark" style="border-radius:10px; object-fit:cover;">
+      <div>
+        <span class="nav-brand">Magnolia</span>
+        <span class="nav-tag">Coffee and Tea</span>
+      </div>
+    </a>
+
+    <div class="nav-links">
+      <a href="#inicio">Inicio</a>
+      <a href="#menu">Menú</a>
+      <a href="#experiencias">Experiencias</a>
+      <a href="#espacios">Espacios</a>
+      <a href="#feria">Feria</a>
+      <a href="#contacto">Contacto</a>
+    </div>
+    <a href="https://wa.me/5491151805888" target="_blank" rel="noopener" class="nav-cta">Reservar mesa</a>
+
+    <button class="hamburger" id="hamburger" aria-label="Abrir menú" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+
+  <div class="nav-mobile" id="nav-mobile">
+    <a href="#inicio">Inicio</a>
+    <a href="#menu">Menú</a>
+    <a href="#experiencias">Experiencias</a>
+    <a href="#espacios">Espacios</a>
+    <a href="#feria">Feria</a>
+    <a href="#contacto">Contacto</a>
+    <a href="https://wa.me/5491151805888" target="_blank" rel="noopener" class="mob-cta">Reservar mesa</a>
+  </div>
+</nav>
+
+<!-- ═══════════════════════════════════════════
+     HERO
+═══════════════════════════════════════════ -->
+<section class="hero" id="inicio">
+  <div class="hero-grain"></div>
+
+  <!-- Botanical decoration -->
+  <svg class="hero-deco" viewBox="0 0 300 420" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <path d="M218 400 Q196 318 172 256 Q148 186 108 118 Q78 62 44 24" stroke="#F2C4C4" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <path d="M183 306 Q214 278 237 260" stroke="#F2C4C4" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+    <path d="M156 240 Q122 216 103 206" stroke="#F2C4C4" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+    <path d="M130 176 Q160 155 182 142" stroke="#F2C4C4" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+    <ellipse cx="239" cy="256" rx="11" ry="17" fill="#F2C4C4" transform="rotate(-35 239 256)"/>
+    <ellipse cx="250" cy="249" rx="11" ry="17" fill="#FAF6F0" transform="rotate(10 250 249)"/>
+    <ellipse cx="232" cy="246" rx="9" ry="14" fill="#FAF6F0" transform="rotate(-65 232 246)"/>
+    <ellipse cx="103" cy="205" rx="9" ry="14" fill="#F2C4C4" transform="rotate(25 103 205)"/>
+    <ellipse cx="114" cy="201" rx="9" ry="14" fill="#FAF6F0" transform="rotate(-20 114 201)"/>
+    <path d="M128 178 Q154 158 180 146 Q164 167 128 178Z" fill="#5C6B3A" opacity="0.18"/>
+    <path d="M157 243 Q180 225 202 218 Q186 236 157 243Z" fill="#5C6B3A" opacity="0.16"/>
+    <ellipse cx="76" cy="87" rx="5" ry="9" fill="#F2C4C4" transform="rotate(-25 76 87)"/>
+    <ellipse cx="49" cy="31" rx="4" ry="8" fill="#F2C4C4" transform="rotate(15 49 31)"/>
+  </svg>
+
+  <div class="hero-grid">
+    <!-- Left: text -->
+    <div class="hero-text">
+      <div class="hero-eyebrow">Café de especialidad en Adrogué</div>
+      <h1 class="hero-title">
+        Más que un café.<br>
+        <em>Un lugar para quedarse.</em>
+      </h1>
+      <p class="hero-sub">Café de especialidad · Pastelería artesanal · Experiencias únicas</p>
+      <p class="hero-loc">
+        <i class="fa-solid fa-location-dot"></i>
+        Francisco Seguí 661, Adrogué
+      </p>
+      <div class="hero-btns">
+        <a href="#menu" class="btn-primary">
+          <i class="fa-solid fa-book-open"></i> Ver el menú
+        </a>
+        <a href="https://wa.me/5491151805888" target="_blank" rel="noopener" class="btn-outline">
+          <i class="fa-brands fa-whatsapp"></i> WhatsApp
+        </a>
+      </div>
+    </div>
+
+    <!-- Right: image -->
+    <div class="hero-img-wrap">
+      <div class="hero-img-frame">
+        <img src="uploads/MagnoliaCafe1.jpg"
+             alt="Latte art — Magnolia Coffee and Tea" loading="eager">
+      </div>
+      <div class="hero-badge">
+        <div class="hero-badge-icon">💐</div>
+        <div>
+          <strong>Flower Bar</strong>
+          <span>¡Nuevo — Mayo 2026!</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════
+     EXPERIENCE STRIP
+═══════════════════════════════════════════ -->
+<div class="strip">
+  <div class="strip-grid">
+    <div class="strip-item animate-in">
+      <div class="strip-ico"><i class="fa-solid fa-mug-hot"></i></div>
+      <h3>Café de Especialidad</h3>
+      <p>Granos seleccionados, preparación de autor</p>
+    </div>
+    <div class="strip-item animate-in d1">
+      <div class="strip-ico"><i class="fa-solid fa-leaf"></i></div>
+      <h3>Sin TACC</h3>
+      <p>Amplia variedad de opciones celíacas</p>
+    </div>
+    <div class="strip-item animate-in d2">
+      <div class="strip-ico"><i class="fa-solid fa-paintbrush"></i></div>
+      <h3>Cerámica &amp; Brunch</h3>
+      <p>Pintá tu pieza mientras disfrutás</p>
+    </div>
+    <div class="strip-item animate-in d3">
+      <div class="strip-ico"><i class="fa-solid fa-seedling"></i></div>
+      <h3>Flower Bar</h3>
+      <p>Armá tu ramo a gusto — ¡Nuevo!</p>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════
+     MENU
+═══════════════════════════════════════════ -->
+<section class="menu-section" id="menu">
+  <div class="container">
+    <div class="menu-header animate-in">
+      <h2 class="section-title">Nuestro Menú</h2>
+      <p class="section-sub">Todos nuestros productos son artesanales</p>
+    </div>
+
+    <div class="tab-nav animate-in d1">
+      <button class="tab-btn active" data-tab="cafes">☕ Cafés &amp; Tés</button>
+      <button class="tab-btn" data-tab="dulce">🥐 Dulce &amp; Salado</button>
+      <button class="tab-btn" data-tab="platos">🍽️ Platos</button>
+    </div>
+
+    <div id="menu-content">
+      <!-- Rendered by magnolia-menu.js -->
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════
+     EXPERIENCIAS
+═══════════════════════════════════════════ -->
+<section class="exp-section" id="experiencias">
+  <div class="container">
+    <div class="exp-header animate-in">
+      <h2 class="section-title">Experiencias Magnolia</h2>
+      <p class="section-sub">Más allá del café</p>
+    </div>
+
+    <div class="exp-grid">
+      <!-- Cerámica -->
+      <div class="exp-card animate-in">
+        <div class="exp-img">
+          <img src="uploads/Tu nueva actividad favorita llegó a Magnolia!🌸La mezcla perfecta de algo rico + diversión en un.jpg"
+               alt="Brunch en Magnolia — Cerámica & Brunch" loading="lazy">
+          <span class="exp-badge">Reservas por WhatsApp</span>
+        </div>
+        <div class="exp-body">
+          <h3 class="exp-title">🎨 Cerámica &amp; Brunch</h3>
+          <p class="exp-desc">Vení a disfrutar de nuestro brunch mientras pintás tu propia pieza de cerámica. La mezcla perfecta de algo rico y diversión.</p>
+          <a href="https://wa.me/5491151805888?text=Hola!%20Me%20interesa%20la%20Experiencia%20Cer%C3%A1mica%20%F0%9F%8E%A8" target="_blank" rel="noopener" class="exp-cta">
+            Consultar disponibilidad <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Flower Bar -->
+      <div class="exp-card animate-in d1">
+        <div class="exp-img">
+          <img src="uploads/Nuevo sector!💐Ahora tenemos la opción de armar ramitos a tu gusto, pasa por el local y llévate .jpg"
+               alt="Flower Bar — Magnolia Coffee and Tea" loading="lazy">
+          <span class="exp-badge green">NUEVO ✨</span>
+        </div>
+        <div class="exp-body">
+          <h3 class="exp-title">💐 Flower Bar</h3>
+          <p class="exp-desc">Armá tu ramo de flores a gusto en nuestro nuevo sector. Pasá por el local o consultanos para pedidos especiales.</p>
+          <a href="https://wa.me/5491151805888?text=Hola!%20Quiero%20info%20del%20Flower%20Bar%20%F0%9F%92%90" target="_blank" rel="noopener" class="exp-cta">
+            Armar mi ramo <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Magno Feria -->
+      <div class="exp-card animate-in d2" id="feria">
+        <div class="exp-img">
+          <img src="uploads/MagnoliaStand.webp"
+               alt="Magno Feria — Magnolia Coffee and Tea" loading="lazy">
+          <span class="exp-badge">Mensual</span>
+        </div>
+        <div class="exp-body">
+          <h3 class="exp-title">🎪 Magno Feria</h3>
+          <p class="exp-desc">Una vez al mes el local se convierte en punto de encuentro para emprendedores y la comunidad de Adrogué.</p>
+          <div class="exp-meta">
+            <i class="fa-regular fa-calendar"></i>
+            Próxima: Sábado 13 de junio — 11:00hs
+          </div>
+          <a href="https://wa.me/5491151805888?text=Hola!%20Me%20interesa%20la%20Magno%20Feria%20%F0%9F%8E%AA" target="_blank" rel="noopener" class="exp-cta">
+            Más info <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════
+     ESPACIOS
+═══════════════════════════════════════════ -->
+<section class="spaces-section" id="espacios">
+  <div class="container">
+    <div class="spaces-header animate-in">
+      <h2 class="section-title">Encontrá tu rincón favorito</h2>
+    </div>
+
+    <div class="spaces-grid">
+      <div class="space-card animate-in">
+        <img src="uploads/MagnoliaInterior2.webp"
+             alt="Salón Interior — Magnolia Coffee and Tea" loading="lazy">
+        <div class="space-overlay">
+          <div class="space-text">
+            <div class="space-name">Salón Interior</div>
+            <div class="space-sub">Ideal para cualquier momento del día</div>
+          </div>
+        </div>
+      </div>
+      <div class="space-card animate-in d1">
+        <img src="uploads/MagnoliaPatio2.webp"
+             alt="Terraza Cubierta — Magnolia Coffee and Tea" loading="lazy">
+        <div class="space-overlay">
+          <div class="space-text">
+            <div class="space-name">Terraza Cubierta</div>
+            <div class="space-sub">Abierta todo el año</div>
+          </div>
+        </div>
+      </div>
+      <div class="space-card animate-in d2">
+        <img src="uploads/MagnoliaPatio5.webp"
+             alt="Jardín Exterior — Magnolia Coffee and Tea" loading="lazy">
+        <div class="space-overlay">
+          <div class="space-text">
+            <div class="space-name">Jardín Exterior</div>
+            <div class="space-sub">El rincón más especial</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════
+     SIN TACC
+═══════════════════════════════════════════ -->
+<section class="sintacc-section">
+  <!-- Decorative leaf SVG -->
+  <svg class="sintacc-deco" viewBox="0 0 200 260" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <path d="M100 10 Q160 60 140 130 Q120 200 60 240 Q80 170 60 100 Q40 40 100 10Z" fill="#5C6B3A"/>
+    <path d="M100 10 Q100 120 60 240" stroke="white" stroke-width="1.5" fill="none" opacity="0.4"/>
+    <path d="M80 60 Q120 80 140 130" stroke="white" stroke-width="1" fill="none" opacity="0.3"/>
+    <path d="M68 110 Q100 120 120 155" stroke="white" stroke-width="1" fill="none" opacity="0.3"/>
+  </svg>
+
+  <div class="container">
+    <div class="sintacc-grid">
+      <div class="sintacc-img animate-in">
+        <img src="uploads/MagnoliaPostreSinTacc.webp"
+             alt="Productos Sin TACC con sticker Magnolia" loading="lazy">
+      </div>
+      <div class="animate-in d1">
+        <div class="sintacc-icon">🌿</div>
+        <h2 class="sintacc-title">Opciones Sin TACC</h2>
+        <p class="sintacc-desc">
+          Entendemos que comer afuera siendo celíaco puede ser un desafío. Por eso tenemos una amplia variedad de opciones sin TACC, claramente identificadas. Podés disfrutar sin preocuparte.
+        </p>
+        <ul class="sintacc-list">
+          <li>Productos claramente identificados</li>
+          <li>Elaboración artesanal con cuidado</li>
+          <li>Opciones en pastelería, panadería y platos</li>
+        </ul>
+        <a href="#menu" class="btn-primary">Ver opciones sin TACC →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════
+     CONTACTO
+═══════════════════════════════════════════ -->
+<section class="contact-section" id="contacto">
+  <div class="container">
+    <div class="contact-grid">
+      <!-- Info -->
+      <div class="animate-in">
+        <h2 class="contact-title">Venís a visitarnos</h2>
+        <div class="info-items">
+          <div class="info-item">
+            <div class="info-icon"><i class="fa-solid fa-location-dot"></i></div>
+            <div class="info-text">
+              <strong>Dirección</strong>
+              <span>Francisco Seguí 661, Adrogué<br>Almirante Brown, Buenos Aires</span>
+            </div>
+          </div>
+          <div class="info-item">
+            <div class="info-icon"><i class="fa-regular fa-clock"></i></div>
+            <div class="info-text">
+              <strong>Horarios</strong>
+              <span>Lun–Vie: 8:00 a 20:00hs<br>Sábados: 9:00 a 20:00hs<br>Domingos: Cerrado</span>
+            </div>
+          </div>
+          <div class="info-item">
+            <div class="info-icon"><i class="fa-solid fa-phone"></i></div>
+            <div class="info-text">
+              <strong>WhatsApp</strong>
+              <span>+54 9 11 5180-5888</span>
+            </div>
+          </div>
+          <div class="info-item">
+            <div class="info-icon"><i class="fa-brands fa-instagram"></i></div>
+            <div class="info-text">
+              <strong>Instagram</strong>
+              <a href="https://instagram.com/magnoliacoffee.ba" target="_blank" rel="noopener">@magnoliacoffee.ba</a>
+            </div>
+          </div>
+        </div>
+        <a href="https://wa.me/5491151805888" target="_blank" rel="noopener" class="wa-btn">
+          <i class="fa-brands fa-whatsapp" style="font-size:1.3rem"></i>
+          Escribinos por WhatsApp
+        </a>
+      </div>
+
+      <!-- Form -->
+      <div class="form-wrap animate-in d1">
+        <h3 class="form-title">¿Tenés alguna consulta?</h3>
+        <form id="contact-form" novalidate>
+          <div class="form-group">
+            <label class="form-label" for="form-name">Nombre *</label>
+            <input type="text" id="form-name" class="form-input" placeholder="Tu nombre" required>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="form-email">Email *</label>
+            <input type="email" id="form-email" class="form-input" placeholder="tu@email.com" required>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="form-consulta">Consulta</label>
+            <select id="form-consulta" class="form-select">
+              <option value="">Seleccioná una opción</option>
+              <option>Reserva de mesa</option>
+              <option>Experiencia Cerámica</option>
+              <option>Flower Bar</option>
+              <option>Magno Feria</option>
+              <option>Otro</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="form-mensaje">Mensaje</label>
+            <textarea id="form-mensaje" class="form-textarea" placeholder="Escribí tu consulta aquí..."></textarea>
+          </div>
+          <button type="submit" class="form-submit">Enviar consulta</button>
+        </form>
+        <div class="form-ok" id="form-ok">
+          <p>✅ ¡Mensaje enviado! Te respondemos a la brevedad.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════
+     FOOTER
+═══════════════════════════════════════════ -->
+<footer class="footer">
+  <div class="footer-grid">
+    <!-- Brand -->
+    <div class="footer-brand">
+      <svg viewBox="0 0 180 44" fill="none" xmlns="http://www.w3.org/2000/svg" height="44" aria-label="Magnolia Coffee and Tea">
+        <image href="uploads/MagnoliaLogo.webp" x="0" y="0" width="44" height="44" style="border-radius:8px" clip-path="inset(0 round 8px)"/>
+        <text x="54" y="21" font-family="Georgia, serif" font-size="19" fill="white" font-style="italic" font-weight="400">Magnolia</text>
+        <text x="55" y="36" font-family="Arial, sans-serif" font-size="8.5" fill="rgba(255,255,255,0.6)" letter-spacing="2.5">COFFEE AND TEA</text>
+      </svg>
+      <p>Café de especialidad · Pastelería artesanal · Experiencias únicas</p>
+      <div class="footer-addr">
+        <i class="fa-solid fa-location-dot" style="opacity:.45"></i>
+        Francisco Seguí 661, Adrogué
+      </div>
+    </div>
+
+    <!-- Links -->
+    <div>
+      <h4 class="footer-col-title">Navegación</h4>
+      <div class="footer-links">
+        <a href="#menu">Menú completo</a>
+        <a href="#experiencias">Experiencias</a>
+        <a href="#espacios">Nuestros Espacios</a>
+        <a href="#menu">Sin TACC</a>
+        <a href="#feria">Magno Feria</a>
+        <a href="#contacto">Contacto</a>
+      </div>
+    </div>
+
+    <!-- Hours + Social -->
+    <div>
+      <h4 class="footer-col-title">Horarios</h4>
+      <div class="footer-hours">
+        <div class="hour-row"><span>Lun – Vie</span><span>8:00 – 20:00hs</span></div>
+        <div class="hour-row"><span>Sábados</span><span>9:00 – 20:00hs</span></div>
+        <div class="hour-row"><span>Domingos</span><span class="closed">Cerrado</span></div>
+      </div>
+      <div class="socials">
+        <a href="https://instagram.com/magnoliacoffee.ba" target="_blank" rel="noopener" class="soc-link" aria-label="Instagram">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="https://wa.me/5491151805888" target="_blank" rel="noopener" class="soc-link" aria-label="WhatsApp">
+          <i class="fa-brands fa-whatsapp"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <span>© 2026 Magnolia Coffee and Tea. Todos los derechos reservados.</span>
+    <span>Desarrollado por <a href="https://porfolio-john-dev.vercel.app" target="_blank" rel="noopener">JohnDev 🌿</a></span>
+  </div>
+</footer>
+
+<!-- ═══════════════════════════════════════════
+     WHATSAPP FLOAT
+═══════════════════════════════════════════ -->
+<a href="https://wa.me/5491151805888" target="_blank" rel="noopener"
+   class="wa-float" id="wa-float" aria-label="Escribinos por WhatsApp">
+  <i class="fa-brands fa-whatsapp"></i>
+  <span class="wa-tip">Escribinos</span>
+</a>
+
+<script src="magnolia-menu.js"></script>
+<script src="magnolia-app.js"></script>
+</body>
+</html>
